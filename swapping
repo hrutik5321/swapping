@@ -1,2 +1,10 @@
+a = 5
+b = 6
 
-print ("hrutik")
+temp = a   #there is another step this work only in python
+a = b      # a,b = b,a
+b = temp
+
+
+print(a)
+print(b)
